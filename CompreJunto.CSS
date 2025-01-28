@@ -1,0 +1,212 @@
+#titleCJ{
+    width: 99vw;
+    height: auto;
+    text-align: center;
+    margin: -5px auto;
+}
+
+#titleCJ h1{
+    font-size: 30px;
+    margin: 0;
+}
+
+#localCompreJunto {
+    width: 1220px;
+    height: 41vw;
+    border: 2px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.sugestao-carrinho.caixa-sombreada{
+    display: none;
+}
+
+div#comprejunto2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.compre-pro {
+    display: flex;
+    flex-direction: row;
+    width: 47.5%;
+    height: 100px;
+    justify-content: center;
+    margin: 5px auto;
+    align-items: center;
+}
+
+.chaveiro-junto {
+    width: 100%;
+    display: flex;
+    
+}
+
+.chaveiro-junto .inside{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;  
+    align-items: center;
+    overflow: hidden;
+}
+
+.comprejuntoimg {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+
+.infobtn {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    height: 85%;
+    flex-direction: column;
+}
+
+.inside img{
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 75px;
+}
+
+.info-sug {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-left: 0;
+}
+
+.aproveitar {
+    width: 100px;
+}
+
+.aproveitar a {
+    line-height: 12px;
+}
+
+.caixa-sombreada {
+    padding: 0;
+    box-shadow: 0 1px 6px 3px rgb(144 144 144 / 15%);
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    position: relative;
+}
+
+div#chav-Iron .comprejuntoimg img {
+    width: 120px;
+    height: 140px;
+    max-width: none;
+    max-height: none;
+    margin-top: 15px;
+}
+
+div#chav-bateria .comprejuntoimg img {
+    width: 90px;
+    max-width: none;
+    max-height: none;
+}
+
+div#kit-chav .comprejuntoimg img {
+    width: 120px;
+    height: 100px;
+    max-width: none;
+    max-height: none;
+}
+
+/* Estilização Mobile */
+
+@media only screen and (max-width: 1024px){
+.compre-pro {
+    width: 95vw!important;
+}
+}
+
+@media only screen and (max-width: 767px){
+.chaveiro-junto {
+    width: 100%!important;
+    padding: 5%;
+}
+}
+
+@media only screen and (max-width: 767px){
+.comprejuntoimg {
+    display: flex!important;
+    width: 25%!important;
+}
+}
+
+@media only screen and (max-width: 767px){
+.infobtn {
+    display: flex!important;
+    width: 75%!important;
+    align-items: center!important;
+    height: 100%!important;
+    margin-left: 5%!important;
+    flex-direction: column!important;
+    justify-content: flex-start !important;
+}
+}
+
+@media only screen and (max-width: 767px){
+.info-sug {
+    display: flex!important;
+    flex-direction: column!important;
+    font-size: 9px!important;
+    height: 50%!important;
+    justify-content: center!important;
+    width: 100%!important;
+    align-items: flex-start!important;
+    margin-left: 5%!important;
+}
+}
+
+.aproveitar a.botao.principal {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px !important;
+}
+
+
+@media only screen and (max-width: 767px){
+.aproveitar a {
+    padding: 0 !important;
+    font-size: 12px !important;
+    height: 30px;
+}
+}
+
+@media only screen and (max-width: 767px){
+.aproveitar {
+    width: 80px;
+}
+}
+
+.pagina-carrinho .caixa-sombreada{
+    overflow: hidden;
+}
+
+
+/* Sómente na simulação */
+
+a.botao.principal {
+    background-color: #36C5C4;
+    height: 25px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    font-weight: 900;
+}
